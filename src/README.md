@@ -14,6 +14,6 @@ The source code is built to be ran with python.  It can be executed from this di
 
 This can be ran on any machine with a GUI capable of running Python.  The following dependencies are required:
 
-* streamlist >= ???
+* streamlit >= ???
 * ollama >= ???
 * ???
