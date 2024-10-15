@@ -20,4 +20,4 @@ Reed White, Cameron O'Dell, Daniel Sponslor
 
 ## Github:
 
-[https://github.com/mist861/5551-Adv-Software-Engineering](https://github.com/mist861/5542-Big-Data-Analytics)
+[https://github.com/mist861/5542-Big-Data-Analytics](https://github.com/mist861/5542-Big-Data-Analytics)
