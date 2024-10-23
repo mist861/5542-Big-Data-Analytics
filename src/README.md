@@ -4,10 +4,16 @@ This directory contains the Python source code
 
 ## Execution:
 
-The source code is built to be ran with python.  It can be executed from this directory (src) with:
+The source code is built to be ran with python.  All dependencies can be installed from this directory (src) with:
 
 ```
-???
+python3 rag_init.py --dataset=<some_dataset> --split_1=<where the dataset should be split> --split_2=<optional subsplit>
+```
+
+It can then be executed with:
+```
+source rag_env/bin/activate
+streamlit run rag_example_streamlit.py
 ```
 
 ## Requirements:
