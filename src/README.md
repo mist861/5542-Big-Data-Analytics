@@ -13,7 +13,7 @@ python3 rag_init.py --dataset=<some_dataset> --split_1=<where the dataset should
 It can then be executed with:
 ```
 source rag_env/bin/activate
-streamlit run rag_example_streamlit.py
+streamlit run rag_streamlit.py
 ```
 
 ## Requirements:
