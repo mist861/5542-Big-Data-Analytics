@@ -1,25 +1,37 @@
-# 5542-0001 Fall 2024 Team Project: GrocerBot
+# 5542-0001 Fall 2024 Team Project: LiteRAGBot
 
 This directory contains the Python source code
 
 ## Execution:
 
-The source code is built to be ran with python.  All dependencies can be installed from this directory (src) with:
+In the src directory (this directory), run:
 
 ```
-python3 rag_init.py --dataset=<some_dataset> --split_1=<where the dataset should be split> --split_2=<optional subsplit>
+bash literagbot.sh
 ```
 
-It can then be executed with:
+This will install all dependencies and launch the LiteRAGBot.  Modification to the application can be made in literagbot.config:
+
 ```
-source rag_env/bin/activate
-streamlit run rag_streamlit.py
+[INIT]
+INIT = True #Flag to track if dependencies need installed or the vector store needs updating
+
+[CORPUS]
+DATA_DIR = ./example_data/ #Corpus location
+STORE = ./chroma #Vector store location
+COLLECTION = literagbot #Collection name
+SPLIT_1 = CATEGORY #Required field name to split tables on, if any
+SPLIT_2 = None #Optional secondary field name to further split tables on
+
+[CHAT]
+MODEL = llama3.1 #The LLM/Model used by the RAG
+TITLE = LiteRagBot #The title page shown by the RAG UI
+DESCRIPTION = An example chatbot created for 5542-0001 Fall 2024 project #A description of the application, shown in the RAG UI
 ```
+
+After the initial run, the INIT flag will be set to False. If additional documents are added to the DATA_DIR to be added to the LiteRAGBot, the INIT flag in literagbot.config should be set back to True. This will recreate the vector store with the new documents.
+
 
 ## Requirements:
 
-This can be ran on any machine with a GUI capable of running Python.  The following dependencies are required:
-
-* streamlit >= ???
-* ollama >= ???
-* ???
+This can be ran on any Ubuntu-based Linux machine with a GUI capable of running Python.  The following dependencies are required:
