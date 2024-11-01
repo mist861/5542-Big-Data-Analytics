@@ -1,6 +1,6 @@
-# 5542-0001 Fall 2024 Team Project: GrocerBot
+# 5542-0001 Fall 2024 Team Project: LiteRAGBot
 
-This is the Team Project for Team GrocerBot in 5542 Big Data Analytics Section 1. It contains the following directories:
+This is the Team Project for Team LiteRAGBot in 5542 Big Data Analytics Section 1. It contains the following directories:
 
 * src: Contains all coding artifacts
 * results: Contains all testing results
@@ -8,11 +8,11 @@ This is the Team Project for Team GrocerBot in 5542 Big Data Analytics Section 1
 
 ## Execution:
 
-<TBD>
+Execution instructions can be found in the src README.
 
 ## Requirements:
 
-<TBD>
+This system should be able to run on any Ubuntu-based Linux machine.
 
 ## Contributors:
 
