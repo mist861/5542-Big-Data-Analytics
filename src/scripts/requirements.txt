@@ -1,8 +1,0 @@
-configparser
-streamlit
-pandas
-chromadb
-ragatouille
-ollama
-typing
-langchain
