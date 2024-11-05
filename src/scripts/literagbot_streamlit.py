@@ -32,8 +32,7 @@ def rag_query(
 
     final_prompt = f"""
         You are a helpful assistant. Use the provided context to answer the provided question. 
-        The attribute names of each item are set in UPPERCASE followed by the attribute value.
-        For example, the cost or price of an item follows the term "PRICE_CURRENT".
+        Do not mention that you were provided context in your reply.
         
         CONTEXT: {relevant_docs}
         QUESTION: {question}
