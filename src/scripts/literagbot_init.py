@@ -20,7 +20,10 @@ class Corpus():
         self.db_metadatas = []
         self.db_docs = []
         self.chroma_client = chromadb.PersistentClient(path=config.get('CORPUS','STORE'))
-        self.chroma_client.delete_collection(name=config.get('CORPUS','COLLECTION'))
+        try:
+            self.chroma_client.delete_collection(name=config.get('CORPUS','COLLECTION'))
+        except:
+            print(f"Collection {config.get('CORPUS','COLLECTION')} not found, nothing to clean!")
         self.collection = self.chroma_client.create_collection(name=config.get('CORPUS','COLLECTION'))
 
 
