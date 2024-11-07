@@ -6,3 +6,5 @@ ragatouille
 ollama
 typing
 langchain
+docx
+PyPDF2

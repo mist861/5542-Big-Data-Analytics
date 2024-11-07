@@ -5,6 +5,8 @@ import chromadb
 import ollama
 import langchain
 from langchain.text_splitter import TokenTextSplitter
+from docx import Document
+from PyPDF2 import PdfReader
 
 config = configparser.ConfigParser()
 config.read('./literagbot.config')
@@ -31,14 +33,31 @@ class Corpus():
         for file in os.listdir(config.get('CORPUS','DATA_DIR')):
             filename = os.fsdecode(file)
             path = os.path.join(config.get('CORPUS','DATA_DIR'), filename)
-            if filename.endswith(".csv") or filename.endswith(".xlsx"):
-                print(f"Found table: {filename}")
+            if filename.endswith(".csv"):
+                print(f"Found CSV table: {filename}")
                 table = pd.read_csv(path)
                 self.tables[f'{filename}'] = table
+            elif filename.endswith(".xlsx"):
+                print(f"Found Excel table: {filename}")
+                table = pd.read_excel(path)
+                self.tables[f'{filename}'] = table
             elif filename.endswith(".txt"):
-                print(f"Found text: {filename}")
+                print(f"Found text file: {filename}")
                 text = open(path, "r")
                 self.texts[f'{filename}'] = text.read()
+            elif filename.endswith(".docx"):
+                print(f"Found Word document: {filename}")
+                document = Document(path)
+                content = [p.text for p in document.paragraphs]
+                self.texts[f'{filename}'] = ("\n".join(str(x) for x in content))
+            elif filename.endswith(".pdf"):
+                print(f"Found PDF: {filename}")
+                reader = PdfReader(path)
+                content = []
+                for page in range(reader.numPages):
+                    pageObject = reader.getPage(page)
+                    content.append(pageObject.extractText())
+                self.texts[f'{filename}'] = ("\n".join(str(x) for x in content))
         pass
 
     def chunk_tables(self):
