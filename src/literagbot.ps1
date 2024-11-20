@@ -1,6 +1,6 @@
 #Get-Content "./literagbot.config" | foreach-object -begin {$settings=@{}} -process { $k = [regex]::split($_,'='); if(($k[0].CompareTo("") -ne 0) -and ($k[0].StartsWith("[") -ne $True)) { $settings.Add($k[0], $k[1]) } }
 
-$init = Get-Content "./literagbot.config" | Select-String "INIT = True"
+$init = (Get-Content "./literagbot.config") | Select-String "INIT = True"
 
 if ( $null -ne $init )
 {
@@ -21,15 +21,15 @@ if ( $null -ne $init )
     python -m virtualenv literagbot_env
 
     Write-Output "Activating virtualenv..."
-    ./literagbot_env/scripts/activate.ps1
+    ./literagbot_env/Scripts/activate.ps1
 
     Write-Output "Installing dependencies..."
     pip install -r "./requirements.txt"
 
     Write-Output "Installing Vector Store..."
-    python3 "./scripts/literagbot_init.py"
+    .\literagbot_env\Scripts\python.exe "./scripts/literagbot_init.py"
 
-    Get-Content "./literagbot.config" | ForEach-Object {$_ -Replace 'INIT = True', 'INIT = False'} | Set-Content "./literagbot.config"
+    (Get-Content "./literagbot.config") | ForEach-Object {$_ -Replace 'INIT = True', 'INIT = False'} | Set-Content "./literagbot.config"
     
 }
 else {
@@ -37,5 +37,5 @@ else {
 }
 
 Write-Output "Initializing LiteRagBot..."
-./literagbot_env/scripts/activate.ps1
-python3 -m streamlit run "./scripts/literagbot_streamlit.py"
+./literagbot_env/Scripts/activate.ps1
+.\literagbot_env\Scripts\python.exe -m streamlit run "./scripts/literagbot_streamlit.py"
