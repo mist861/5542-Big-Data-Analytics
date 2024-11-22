@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "There is no specific information about the current price of shrimp in general, but I can tell you that for one item, \"Frozen Wild Coldwater Salad Shrimp, 1 lb (350-500 Count per lb)\", the price is $8.36, both retail and current price are the same."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "Based on the information, it appears that the product \"Ranch Style Canned Pinto Beans\" is categorized under \"Canned goods\" and the shipping location for this product is also listed as being from a store in the Pantry department. Therefore, I would say that the department that would have ranch is likely the Pantry department."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "Based on the available data, it seems we offer a variety of healthy snack options from the Great Value brand, including dried fruits such as blueberries, cherries, apricots, and banana & strawberry fruit mix. We also have chopped nuts like pecans and roasted mixed nuts. These snacks are all within a specific size range, with some being as small as 3.5 oz and others up to 6 oz or even larger, like the 14.75 oz package of Great Value Roasted & Lightly Salted Mixed Nuts."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "It looks like I have several flavors of Crystal Creamery Ice Cream available, including Classic Vanilla, Strawberry, Mint Chocolate Chip, Tin Roof Sundae, French Vanilla, and Chocolate Chip! Would you like to know more about any of these?"
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "The current price of Hamburger Helper is $1.66."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "According to the data, a 12-count pack of Great Value Extra Large White Eggs costs $2.32 (retail price) and also $2.32 (current price)."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "I couldn't find any information about Lowry's seasoning in the available data."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "H. Lee Scott became Wal-Mart's president and CEO in 2000, as the company's sales increased to $165 billion."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "The first Wal-Mart Supercenter was opened in 1988, in Washington, Missouri."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "I don't have specific information on what Walmart is called in Kenya. The article mentions various names under which Walmart operates globally, but it does not mention any name for operations in Kenya specifically."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "Unfortunately, the provided information does not mention specific rivals of Walmart. However, based on general knowledge, some of Walmart's main competitors in the retail industry include:\n\n* Amazon (in various markets)\n* Target Corporation\n* Costco Wholesale\n* Home Depot (in the home improvement space)\n* Dollar General and Family Dollar (in the discount store segment)\n\nPlease note that this information is not explicitly mentioned in the provided context."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "I don't have information about Walmart's current or past slogans."
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "That information is not mentioned in the context."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "The company was founded in 1962 by Sam Walton."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "According to the information available, Walmart operates in 24 countries, but there is no specific mention of Honduras as one of them. However, it does mention operations and subsidiaries in Central America, which might imply some presence in neighboring countries like Costa Rica or Panama, but not specifically in Honduras."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "I can't provide information on the Walmart Money Center as it's not mentioned in the provided context."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "I can't provide real-time information or data on a company's current performance, including the number of its stores, without access to updated and accurate sources. If you're looking for the most recent information on Walmart's store count, I recommend checking their official website, annual reports, or reputable business news outlets for the latest updates."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "I couldn't find any information about \"Walmart Express\" in the provided text. It seems that this concept is not mentioned in the history of Walmart as presented on Wikipedia. If you'd like to know more, I can try to help with related information!"
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "Walmart Supercenters cover 260,000 square feet on two floors, which is the largest Supercenter in the world."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "No, there is no information about Walmart acquiring Moosejaw in the provided text."
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "Shrimp cost $1-$4 per pound.\nIf shrimp is in a package, then the price per pound is $0-$5 per pound.\nTherefore, shrimp costs $1-4 per pound.\nI hope this helps you with your question. If not, please let me know what you need help with and I will do my best to assist you."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The department that would have ranch in this context is \"Canned Goods.\""
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "As an AI language model, I don't have the capability to offer healthy snacks directly. However, I can provide general advice on what kind of healthy snacks are available.\n\nSome examples of healthy snack options include fruits and vegetables, whole grains, nuts, seeds, and low-fat dairy products.\n\nUltimately, it is important to consume a variety of nutrient-dense foods throughout the day to maintain good health."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "As an AI language model, I don't have the capability to taste or consume ice cream. However, if you can describe the flavor and texture of ice cream that you like to try, I would be happy to assist you further."
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "The price of Hamburger Helper varies depending on the size and type of package. The exact price can be found online or at the Walmart store where you can purchase them."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "The cost of 12 great value eggs is determined by their weight and volume, as well as any additional costs associated with the production process.\nTo determine the cost of 12 great value eggs, you would need to know the weight and volume of each egg, as well as any additional costs associated with the production process."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "You can find Lowry's seasoning at a store that sells high-end spices, such as House of Tea, or Apenne. Additionally, you can order online from retailers who carry high-end spices."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "I have no information about who was the president of Walmart in 2000. This question is asking about someone who was the president of Walmart in 2000, but there is no available information about this individual."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "2004"
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "Walmart is known as \"Walmart in Kenya\" in Kenyan. This is because Walmart has stores located throughout Kenya, including the city of Nairobi. Therefore, when one asks to know what Walmart is called in Kenya, they will get accurate and up-to-date information on the topic."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "Walmart' s competitors include Target, Basscom, and Best Buy. These companies offer a range of products at competitive prices. Walmart is a global retailer known for its wide range of products under different brands."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "Walmart's slogan is \"Where value resides.\" This slogan emphasizes the importance of finding affordable products and services to meet customers' needs and desires."
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "Walmart entered Canada in 1974, when it acquired the majority of the Canadian grocery stores and retailers. The acquisition increased Walmart's global presence and helped to establish Walmart as one of the largest grocery stores in the world."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "2005 - 2010"
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "No, Walmart does not operate in Honduras. Walmart is a chain of retail stores located in various cities across the United States and Canada. Walmart operates through its own network of实体 stores, as well as through a network of online stores that are run by separate businesses or companies within the Walmart chain."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "The Walmart Money Center is a large-scale financial center located in Walmart, Missouri. It was established in 1970 by Walmart and its parent company, DuWagon Corporation. The Walmart Money Center has become a significant hub for both retail trade and commercial finance."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "According to Walmart, they had approximately 4,679 stores active at that time. However, store numbers can fluctuate due to changes in inventory levels and business operations."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "Walmart Express was a direct mail campaign targeting convenience stores in the United States. The campaign utilized彩带, business cards, and other marketing materials to create a visually appealing and persuasive message that encouraged stores to offer delivery services.\n\nThe campaign ultimately failed to generate significant sales for Walmart. It may have been too aggressive or expensive compared to other direct mail campaigns. However, it is important to note that the success of a direct mail campaign depends on various factors such as the target audience, the cost of executing the campaign, and the overall campaign strategy."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "There were 682 Walmart Neighborhood Markets at the end of October 31, 2022."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "It is not clear what Walmart acquired from Moosejaw. It would be helpful to have more context or information about the acquisition."
+    }
+}

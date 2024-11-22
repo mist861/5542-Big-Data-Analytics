@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "The current price for both frozen and fresh wild coldwater salad shrimp, as listed in the data you've shared with us from Walmart on September 11th, is $8.36 per pound when considering options that range between a count of 350 to 500 pieces (depending if it’s frozen or fresh) and an eight-ounce size offering concentrated flavor for pickup at the specified shipping location with code: 210567362."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The pantry section of a store typically houses items like canned beans, so the Ranch Style Canned Beans could likely be found there. In this specific case, you're referring to an item with Walmart as its retailer and it appears under their Pantry category within another subcategory named 'Shop all'. Hence, for a product such as these canned goods by brand Ranch Style in question herein described would most likely be situated in the pantry department."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "The establishment offers a variety of dried fruits, including apricots and mixed nuts that are roasted with light seasoning options like salt for enhanced taste experience as part of their selection within the Healthy Snacks category. They also provide chopped pecans in smaller portions to cater different preferences or portion needs among consumers seeking healthier snack alternatives, underlining a broad spectrum of dried fruits and nut-based options that fall into this niche marketplace for wellness conscious individuals looking for convenient yet wholesome choices."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "You can find various types such as Tin Roof Sundae and French Vanilla flavors from Crystal Creamery in the listed context. These are specifically frozen desserts available at a Walmart store with their details on pricing, SKU numbers for online purchases or further identification purposes mentioned along with shipping location specifications within that department of Frozen Goods and Shop all subcategory under Breadcrumbs like 'Frozen/Frozen Desserts.'"
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "The current price of Hamburger Helper ranges from $1.66 to $1.83, depending on the location and possibly other factors that are not specified in your provided context snippet. Please check a specific retailer's prices for accurate pricing information at this time."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "Based on the given data, each Great Value egg (32 oz) is priced at $4.68 retail and currently costs the same amount since there's no discount mentioned for promotions in any of those listed entries related to eggs from Walmart under the \"Great Value\" brand within this context. Therefore, 12 great value eggs would cost you approximately $56.16 (which is calculated by multiplying the price per egg with quantity: $4.68 * 12)."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "You can locate Lowry's Seasoning at Walmart by visiting their website or directly browsing through the Pantry section under Herbs, spices & seasonings within Shop all category. Please note that you might require specific SKU for identification and to check current prices as they may vary over time."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "The information necessary to accurately respond to this question cannot be directly derived from the given context, which focuses primarily on various aspects related to Walmart's operations and environmental initiatives. To find out who held the position of president at Walmart in 2000, one would need external data sources or additional details not provided within the existing text excerpt."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "The first Walmart Supercenter was officially launched in March 1994, following a challenge from the National Advertising Review Board regarding its slogan and pricing strategy. This event marked an expansion of their retail concept at that time."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "In Kenya, Walmart operates under various names including Uchumi Supermarket and Tuskys among others as part of its localized branding strategy to cater to the diverse market. These are commonly found across numerous locations throughout the country where they offer a wide range of products at competitive prices similar to their American counterpart's mission for affordability combined with convenience in shopping experience, echoing Sam Walton’s original retail philosophy from its roots back when it was founded as \"Walton's Five and Dime\".\n"
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "Walmart competes with other major retail chains, many of which offer a variety of products similar to those found in its own stores, often at varying price points and shopping experiences. These include large national brands as well as regional or local players who may focus on specific market segments like organic produce or high-end electronics. Additionally, online retail giants such as Amazon have become significant competitors by offering a wide range of products along with fast shipping options through their ecommerce platforms and delivery services."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "Save Money, Live Better."
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "Walmart entered into Canadian market in October of the year following its establishment as a multinational corporation, expanding rapidly to establish significant presence with over two thousand stores by mid-century's second decade. This strategic expansion marked their official entrance and continued growth within that nation during this period."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "Walmart was founded in 1962."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "No, according to their international ventures mentioned previously, it appears that while they have successes and failures across various countries outside the U.S., there is no specific mention of operations or subsidiaries within Honduras among those listed such as Canada, United Kingdom (ASDA), Central America where some locations exist but not specifically stated in your query to include Honduras itself. For precise information on their presence and performance country-wise though it's important to consult recent reports from Walmart directly or credible business news sources for up-to-date details about operations worldwide, including countries like Honduras if they indeed have a market there."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "The Walmart Money Center was a service introduced by Sam Walton, focusing on consumer pricing and selling products at lower prices to drive higher volume sales with reduced profit margins. This approach aimed for affordability while offering competitive selections of goods within the retail environment he established across various locations in America over time.\n\n"
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "As of October 2022, based on the extensive retail presence that grew significantly over several decades since its foundation and considering various acquisitions along with international expansions as well as closures, it's reasonable to infer a substantial global network. The specific number from around or after this date isn’t directly provided in your contextual information but using the pattern of growth indicated by sales milestones (like doubling US sales since 1995), and assuming steady expansion would suggest they likely had several thousand stores worldwide, with over 3,800 locations within the United States alone. For precise figures though, one should refer to Walmart's official corporate reports or databases listing their store count as of October 2022 for an accurate number."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "Walmart Express refers to a concept introduced by Walmart, offering customers quick and convenient shopping experiences with easily accessible parking areas, less crowded aisles compared to traditional grocery stores. This approach aimed at attracting more shoppers looking for speedy checkout processes as well. The context provided indicates that these aspects were key differentiators in drawing consumers towards Walmart's retail spaces over average supermarkets of the time."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "Walmart Supercenters typically range from about 28,000 to 65,000 square feet (2,600 to 6,000 square meters). This makes them significantly larger than the average Walmart Neighborhood Market."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "No, Walmart did not acquire Moosejaw according to the information available about its history and expansions in various markets like South Korea with Seiyu Group or Germany through Metro Group. These specifics refer more directly to their business strategies rather than a merger or acquisition involving an outdoor retail brand such as Moosejaw."
+    }
+}

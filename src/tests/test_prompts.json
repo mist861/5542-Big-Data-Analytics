@@ -1,0 +1,85 @@
+{
+   "1": {
+        "prompt":"How much does shrimp cost?",
+        "answer":"Subjective, but should be around $10"
+    },
+    "2": {
+        "prompt":"Which department would have ranch?",
+        "answer":"Baking or Pantry, it's in both weirdly"
+    },
+    "3": {
+        "prompt":"What sort of healthy snacks do you offer?",
+        "answer":"Subjective, so long as it gives something under 'healthy snacks'."
+    },
+    "4": {
+        "prompt":"What sort of ice cream do you have?",
+        "answer":"Subjective, so long as it gives something under 'frozen deserts'."
+    },
+    "5": {
+        "prompt":"How much does Hamburger Helper cost?",
+        "answer":"Subjective, but should be around $2"
+    },
+    "6": {
+        "prompt":"How much does 12 great value eggs cost?",
+        "answer":"2.42"
+    },
+    "7": {
+        "prompt":"Where can I find Lowry's seasoning?",
+        "answer":"Subjective, should be in like the Pantry department or spice aisle"
+    },
+    "8": {
+        "prompt":"Who was the president of Walmart in 2000?",
+        "answer":"Lee Scott"
+    },
+    "9": {
+        "prompt":"When was the first Walmart Supercenter opened?",
+        "answer":"1988"
+    },
+    "10": {
+        "prompt":"What is Walmart called in Kenya?",
+        "answer":"Massmart"
+    },
+    "11": {
+        "prompt":"Who are Walmart's rivals?",
+        "answer":"Kmart, Sears, or anything else that makes sense"
+    },
+    "12": {
+        "prompt":"What is Walmart's slogan?",
+        "answer":"Save money. Live better."
+    },
+    "13": {
+        "prompt":"When did Walmart enter Canada?",
+        "answer":"1994"
+    },
+    "14": {
+        "prompt":"When was Walmart founded?",
+        "answer":"1962"
+    },
+    "15": {
+        "prompt":"Does Walmart operate in Honduras?",
+        "answer":"Yes"
+    },
+    "16": {
+        "prompt":"What is the Walmart Money Center?",
+        "answer":"Subjective, it should mention the financial services"
+    },
+    "17": {
+        "prompt":"How many stores did Walmart have in October 2022?",
+        "answer":"10,586"
+    },
+    "18": {
+        "prompt":"What was Walmart Express?",
+        "answer":"Subjective, it should mention smaller discount stores and/or gasoline"
+    },
+    "19": {
+        "prompt":"How big are Walmart Supercenters?",
+        "answer":"69,000 to 260,000 square feet"
+    },
+    "20": {
+        "prompt":"Did Walmart acquire Moosejaw?",
+        "answer":"Yes"
+    }
+}
+
+
+

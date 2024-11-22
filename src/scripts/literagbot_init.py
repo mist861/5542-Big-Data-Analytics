@@ -54,9 +54,9 @@ class Corpus():
                 print(f"Found PDF: {filename}")
                 reader = PdfReader(path)
                 content = []
-                for page in range(reader.numPages):
-                    pageObject = reader.getPage(page)
-                    content.append(pageObject.extractText())
+                for page in range(0, len(reader.pages)):
+                    pageObject = reader.pages[page]
+                    content.append(pageObject.extract_text)
                 self.texts[f'{filename}'] = ("\n".join(str(x) for x in content))
         pass
 
