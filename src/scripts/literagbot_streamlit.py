@@ -18,27 +18,40 @@ def rag_query(
     llm: str,
     knowledge_index=collection,
     reranker: Optional[RAGPretrainedModel] = None,
-    num_retrieved_docs: int = 5,
-    num_docs_final: int = 1):
+    num_retrieved_docs: int = 8,
+    num_docs_final: int = 4):
     print("=> Retrieving documents...")
     relevant_docs = knowledge_index.query(query_texts=question, n_results=num_retrieved_docs)
     relevant_docs = relevant_docs['documents'][0]
 
     if reranker:
         print("=> Reranking documents...")
-        relevant_docs = reranker.rerank(question, relevant_docs, k=num_docs_final)
+        reranked_docs = reranker.rerank(question, relevant_docs, k=num_docs_final)
+        relevant_docs = []
+        for doc in reranked_docs:
+            relevant_docs.append(doc['content'])
+
+    if len(relevant_docs[0].split()) > 3000:
+        num_docs_final = 1
+        print(f"Number of documents modified to: {num_docs_final}")
+    elif (len(relevant_docs[0].split()) + len(relevant_docs[1].split()) > 3000):
+        num_docs_final = 2
+        print(f"Number of documents modified to: {num_docs_final}")
+    elif (len(relevant_docs[0].split()) + len(relevant_docs[1].split()) + len(relevant_docs[2].split()) > 3000):
+        num_docs_final = 3
+        print(f"Number of documents modified to: {num_docs_final}")
 
     relevant_docs = relevant_docs[:num_docs_final]
+    relevant_docs.reverse()
 
     final_prompt = f"""
-        You are a helpful assistant. Use the provided context to answer the provided question. 
-        Do not mention that you were provided context in your reply.
-        If you do not know the answer or the answer is not in the provided, say that you don't know.
+        CONTEXT: {relevant_docs}
+        
+        You are a helpful assistant. Use the above CONTEXT to answer the QUESTION below.
+        Do not mention the CONTEXT directly. Pretend that you already know all provided CONTEXT.
         Do not make up an answer.
         
-        CONTEXT: {relevant_docs}
         QUESTION: {question}
-        
         """
 
     response = ollama.chat(model=llm, messages=[
