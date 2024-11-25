@@ -43,7 +43,7 @@ class Corpus():
                 self.tables[f'{filename}'] = table
             elif filename.endswith(".txt"):
                 print(f"Found text file: {filename}")
-                text = open(path, "r")
+                text = open(path, "r", encoding="utf8")
                 self.texts[f'{filename}'] = text.read()
             elif filename.endswith(".docx"):
                 print(f"Found Word document: {filename}")
