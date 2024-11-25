@@ -1,14 +1,15 @@
+import os
+os.environ["GIT_PYTHON_REFRESH"] = "quiet"
+
 import streamlit as st
 import configparser
 import chromadb
 from ragatouille import RAGPretrainedModel
 import ollama
 from typing import Optional
-import os
 
 config = configparser.ConfigParser()
 config.read('./literagbot.config')
-
 
 chroma_client = chromadb.PersistentClient(path=config.get('CORPUS','STORE'))
 collection = chroma_client.get_or_create_collection(name=config.get('CORPUS','COLLECTION'))

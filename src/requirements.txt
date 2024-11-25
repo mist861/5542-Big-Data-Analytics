@@ -1,5 +1,4 @@
 configparser
-python-git
 streamlit
 pandas
 chromadb
@@ -9,3 +8,5 @@ typing
 langchain
 python-docx
 PyPDF2
+python-git
+setuptools
