@@ -45,4 +45,4 @@ After the initial run, the INIT flag will be set to False. If additional documen
 
 ## Requirements:
 
-This can be ran on any Ubuntu-based Linux machine with a GUI capable of running Python.  The following dependencies are required:
+This can be ran on any Ubuntu-based Linux or Windows machine capable of running Python.
