@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "The price of shrimp is $8.36 for a 1-pound package (350-500 Count per lb) according to the data."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The department with Ranch products is Pantry."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "We have a variety of healthy snack options available, including Great Value Dried Blueberries, Sweetened, 3.5 oz., Great Value Dried Cherries, Sweetened, 5 oz, and Great Value Chopped Pecans, 4 oz. We also offer Great Value Freeze Dried Banana & Strawberry Flakes, 1.3 oz, which is a unique snack option. Additionally, we have Great Value Roasted & Lightly Salted Mixed Nuts, 14.75 oz, as another healthy snack choice."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "You have several flavors of Crystal Creamery Ice Cream, including Vanilla, Strawberry, Mint Chocolate Chip, Tin Roof Sundae, French Vanilla, and Chocolate Chip."
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "According to the data, Hamburger Helper costs $1.66 for a 6 oz box. This is based on the `PRICE_CURRENT` field in each of the relevant rows."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "According to the information, a 12-count box of Great Value Extra Large White Eggs costs $2.32."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "Unfortunately, I couldn't find any information about Lowry's seasoning in the available data. The data seems to be related to Bob Evans products and their prices at Walmart stores. If you're looking for information on a different product or brand, it might not be included in this dataset."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "H. Lee Scott became Wal-Mart's president and CEO in 2000 as the company's sales increased to $165 billion."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "The first Wal-Mart Supercenter was opened in 1988, in Washington, Missouri."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "Unfortunately, I couldn't find any information about Walmart's branding or presence in Kenya within the provided context."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "Unfortunately, the provided information does not mention specific competitors or rivals of Walmart. However, it does mention that Walmart was originally geographically limited to the South and lower Midwest, which suggests that there may be regional retailers that compete with them in those areas. Additionally, it mentions that Walmart's ventures failed in certain countries, such as Germany, Japan, South Korea, Brazil, and Argentina, which implies that local retailers or other companies may have a strong presence in those markets."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "I'm sorry, I do not know Walmart's slogan."
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "The text does not specifically mention when Walmart entered Canada, but it does mention that the company opened stores outside North America in 1995 with entries into South America (Argentina and Brazil) and that they bought Asda in the United Kingdom in July 1999."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "Walmart was founded in 1962 by Sam Walton."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "There is no information in the text indicating that Walmart operates in Honduras. According to the text, Walmart has operations and subsidiaries in 24 countries, but Honduras is not listed among them."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "I don't have information about the Walmart Money Center in the available data."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "The question does not provide a direct answer for the number of Walmart stores in October 2022. However, according to the information given, in 2005, Walmart had more than 6,200 facilities around the world, including approximately 3,800 stores in the United States and 3,800 international units."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "I'm not able to find any information about \"Walmart Express\" in the provided text. It's possible that Walmart Express may be mentioned or discussed in other sources, but based on the information I have available, there is no mention of it."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "Walmart Supercenters cover 260,000 square feet (24,000 square meters) on two floors."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "No information about Walmart acquiring Moosejaw is mentioned in the available records."
+    }
+}
