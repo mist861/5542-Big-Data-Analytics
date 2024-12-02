@@ -14,6 +14,8 @@ config.read('./literagbot.config')
 chroma_client = chromadb.PersistentClient(path=config.get('CORPUS','STORE'))
 collection = chroma_client.get_or_create_collection(name=config.get('CORPUS','COLLECTION'))
 
+ollama.pull(config.get('CHAT','MODEL'))
+
 def rag_query(
     question: str,
     llm: str,
