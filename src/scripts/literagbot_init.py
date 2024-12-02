@@ -121,19 +121,17 @@ class Corpus():
         pass
 
     def load_vector_store(self):
-        batch_size = 10000
+        batch_size = 3000
         batch_count = (len(self.db_docs) - 1) // batch_size + 1
 
-        for batch in range(batch_count):
-            db_docs = self.db_docs[batch*batch_size:(batch+1)*batch_size]
-            db_ids = self.db_ids[batch*batch_size:(batch+1)*batch_size]
-            db_metadatas = self.db_metadatas[batch*batch_size:(batch+1)*batch_size]
+        for batch in range(0, batch_count):
+            batch_docs = self.db_docs[batch*batch_size:(batch+1)*batch_size]
+            batch_ids = self.db_ids[batch*batch_size:(batch+1)*batch_size]
+            batch_metadatas = self.db_metadatas[batch*batch_size:(batch+1)*batch_size]
             print(f"Adding batch {batch+1}/{batch_count} to vector store")
-            self.collection.add(documents=db_docs, ids=db_ids, metadatas=db_metadatas)
+            self.collection.add(documents=batch_docs, ids=batch_ids, metadatas=batch_metadatas)
+            print(f"Finished adding batch {batch+1}/{batch_count} to vector store")
         pass
-
-    def add_document_to_store(self):
-        print("placeholder for adding a document")
 
 
 store = Corpus()
