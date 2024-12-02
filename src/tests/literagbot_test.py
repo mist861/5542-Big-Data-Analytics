@@ -1,21 +1,25 @@
+import os
+os.environ["GIT_PYTHON_REFRESH"] = "quiet"
+
 import configparser
 import chromadb
 from ragatouille import RAGPretrainedModel
 import ollama
 from typing import Optional
-import os
 import json
+import re
 
 config = configparser.ConfigParser()
 config_path = os.path.join(os.path.dirname(__file__), '../literagbot.config')
 config.read(config_path)
 
 model = config.get('CHAT','MODEL')
+ollama.pull(model)
 
 chroma_client = chromadb.PersistentClient(path=config.get('CORPUS','STORE'))
 collection = chroma_client.get_or_create_collection(name=config.get('CORPUS','COLLECTION'))
 
-llmreranker = RAGPretrainedModel.from_pretrained("colbert-ir/colbertv2.0")
+#llmreranker = RAGPretrainedModel.from_pretrained("colbert-ir/colbertv2.0")
 
 def rag_query(
     question: str,
@@ -87,8 +91,7 @@ for prompt in range(0, len(prompts)):
     results[prompt] = {'prompt':f'{prompts[prompt]}', 'expected_response':f'{answers[prompt]}', 'llm_response':f'{prediction}'}
 
 
-results_path = os.path.join(os.path.dirname(__file__), f'../../results/{model}_results.json')
+model_name = re.sub('[^a-zA-Z0-9\-\_]', '', model)
+results_path = os.path.join(os.path.dirname(__file__), f'../../results/{model_name}_results.json')
 with open(results_path, 'w', encoding='utf-8') as results_file:
     json.dump(results, results_file, ensure_ascii=False, indent=4)
-
-
