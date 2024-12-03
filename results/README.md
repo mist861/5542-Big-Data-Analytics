@@ -1,4 +1,4 @@
-# 5542-0001 Fall 2024 Team Project: LiteRagBot
+# 5542-0001 Fall 2024 Team Project: LiteRAGBot
 
 This directory contains the results for testing different LLMs in the LiteRagBot systems. It contains two types of results:
 
