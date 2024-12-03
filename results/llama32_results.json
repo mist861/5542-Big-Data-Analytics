@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "According to the information available, Frozen Wild Coldwater Salad Shrimp has a PRICE_CURRENT of $8.36."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The department where ranch products, such as Ranch Style Canned Pinto Beans and Ranch Style Beans, are typically found is Pantry."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "We offer Healthy Snacks, which include products such as dried fruit options like Dried Blueberries, Dried Cherries, and Dried Apricots, as well as a mix of nuts."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "We have several flavors of ice cream from Crystal Creamery, including Classic Vanilla, Strawberry, Mint Chocolate Chip, Tin Roof Sundae, French Vanilla, and Chocolate Chip."
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "The current price of Hamburger Helper is $1.66, and it is available in a 6 oz box size."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "The 12-count Great Value extra large white eggs currently costs $2.32, and the 6-count Great Value large white eggs also costs $1.06 per unit. However, if you're looking to purchase a specific quantity of 12 eggs, such as 12 eggs in total (not necessarily from the 12-count package), it's unclear without knowing the pricing for a mix of egg sizes."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "I'm unable to help with finding information on specific products, such as Lowry's seasoning, based on the provided data. Can I assist with anything else?"
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "H. Lee Scott was the president and CEO of Wal-Mart in 2000, as reported by various sources indicating a significant increase in sales that year to $165 billion."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "The first Wal-Mart Supercenter was opened in 1988, specifically in Washington, Missouri."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "I don't have information on what Walmart is called in Kenya."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "Walmart faces competition from various retailers and e-commerce platforms. Some of its main competitors include Amazon, Target, Costco, and department store chains such as Macy's and Nordstrom. Additionally, Walmart competes with discount stores like TJX Companies (TJ Maxx, Marshalls, and HomeGoods) and dollar stores like Dollar Tree and Dollar General."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "Unfortunately, I don't have information on Walmart's current or past slogans in my database. However, I can tell you that Walmart has used various slogans over the years, such as \"Every day low prices\" and \"Save money. Live better.\""
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "I couldn't find any information on when Walmart entered Canada in the provided text."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "Walmart, as a company, does not have a specific founding date in the traditional sense. It was originally two companies: Wal-Mart Discount City, which was founded by Sam Walton in 1962, and Wal-Mart Stores, Inc., which was incorporated in 1969. The two companies merged to form Walmart Inc. in 2003."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "No, according to my information, Walmart does not have any operational stores or presence in Honduras."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "The Walmart Money Center was founded in 1987, and it offers a range of financial services including checking accounts, savings accounts, credit cards, money orders, bill payment, and more. The center also provides other services like wire transfers, Western Union money transfers, and loan applications."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "I don't have that information."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "I'm unable to find any information about \"Walmart Express\". However, I can tell you that Walmart did have a short-lived store format called \"Walmart Supercenter\" or more recently, \"Neighborhood Market\", which is still an existing store concept. But there's no mention of anything specific called \"Walmart Express\" in the provided CONTEXT."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "Walmart Supercenters cover 260,000 square feet (24,000 square meters) on two floors."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "Yes, Walmart acquired Moosejaw in 2017."
+    }
+}

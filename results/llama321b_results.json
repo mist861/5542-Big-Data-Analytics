@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "The prices of shrimp in Walmart's inventory are as follows:\n\n* Frozen Wild Coldwater Salad Shrimp (1 lb, 350-500 Count per lb) - $8.36\n* Frozen Wild Coldwater Salad Shrimp (8 oz) - $2.38\n\nPlease note that the prices may vary depending on location and availability."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The Canned goods department."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "Based on the provided information, I would categorize the snack items as follows:\n\n- Dried Blueberries\n- Dried Cherries\n- Dried Apricots\n- Freeze Dried Banana & Strawberry Fruit Blend\n- Chopped Pecans\n- Roasted & Lightly Salted Mixed Nut Blend"
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "The type of ice cream I have available is Vanilla, Strawberry, Mint Chocolate Chip and Chocolate Chip Ice Cream."
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "According to the provided CONTEXT, the price of Hamburger Helper at Walmart is $1.66 (PRICE_CURRENT) and $1.83 (PRICE_RETAIL). Therefore, the total cost of Hamburger Helper is $1.66 + $1.83 = $3.49."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "The price of Great Value Eggs, 6 Count is $1.06."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "To locate Lowry's seasoning, I recommend checking the Pantry department in your local Walmart supermarket. The product is listed under SKU 14664756 and has a link to its webpage on Walmart's website. You can then use the Walmart app or search for \"Lowry's seasoning\" directly on their platform to find it on various shelves within your store."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "H. Lee Scott was the president and CEO of Walmart in 2000."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "The first Wal-Mart Supercenter was opened in Washington, Missouri in 1988."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "Walmart is called Sam's Club retail warehouses."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "Walmart's main competitors in various markets, such as grocery stores, general merchandise retailers, and e-commerce platforms."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "The company has undergone several transformations and rebranding efforts over the years, but one of its most well-known slogans was \"Sam's Wonderful Low Price\" or simply \"Save Money, Live Better.\" However, another popular slogan that became closely associated with the brand was \"Everyday Low Prices,\" which was adopted in the 1970s."
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "Walmart entered Canada in 1985, when it opened its first Canadian store in Calgary, Alberta."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "The company, which later became known as Wal-Mart, was founded in 1962 by Sam Walton."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "No, according to the context, Walmart does not appear to have operations or stores in Honduras. In fact, it mentions that Walmart is headquartered in Rogers, Arkansas, and its largest country of operation is the United States, with significant operations also in Canada. There is no mention of Honduras as a country where Walmart operates."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "The Walmart Money Center is a retail store chain operated by Walmart, which serves as a convenient location for customers to deposit their paychecks and receive cash advances."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "3,800."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "Walmart Express, formerly known as Sam's Club Express or Member's Only Express, was a private warehouse club and supercenter chain owned by Walmart. It operated from 1987 to 1994, offering bulk quantities of products at lower prices than traditional retail stores."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "Walmart Supercenters cover 260,000 square feet (24,000 square meters) on two floors."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "Walmart acquired Moosejaw in 2020."
+    }
+}
