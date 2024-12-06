@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "The cost of shrimp varies depending on the specific product:\n\n- Great Value Frozen Raw Super Colossal Shell-on Shrimp costs $9.78.\n- Frozen Wild Coldwater Salad Shrimp, 1 lb (350-500 Count per lb) costs $8.36.\n- Louisiana Fish Fry Concentrated Crawfish Crab & Shrimp Boil, 8.0 fl oz costs $2.38.\n\nPlease note that these are the current prices for the specific products mentioned and may not reflect all shrimp products available at Walmart."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The department that would have ranch is Pantry, as shown in the provided context where products related to Ranch Style are categorized under the Pantry category."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "Based on the information provided, we offer several types of healthy snack options such as dried fruits (like cherries and apricots), freeze-dried fruits (banana and strawberry blend), and roasted mixed nuts. These items are categorized under Healthy Snacks in the Snacks department."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "You have several types of Crystal Creamery ice cream, including Classic Vanilla Ice Cream, Strawberry Ice Cream, Mint Chocolate Chip Ice Cream, Tin Roof Sundae Ice Cream, French Vanilla Ice Cream, and Chocolate Chip Ice Cream. Each is available in a 1.5 qt. carton."
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "Hamburger Helper costs $1.66 and $1.83 based on the provided data."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "Based on the information provided, a 6-count (likely equivalent to about a dozen) Great Value egg product costs:\n- $2.06 for Large White Eggs\n- $2.54 for Hard Boiled Eggs\n\nSo the cost for approximately 12 Great Value eggs would be either $2.06 or $2.54, depending on whether it's the Large White Eggs or Hard Boiled Eggs option."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "Based on the context provided, it does not appear there is any information about Lowry's seasoning available. The products listed are primarily from Bob Evans and include mashed potato options but do not mention Lowry's seasoning."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "H. Lee Scott became Wal-Mart's president and CEO in 2000."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "Based on the information provided, while the exact opening date for the first Walmart Supercenter is not specified in the context, by 1988 Walmart was operating in 27 states and by 1990 they had expanded into California, which marked Walmart officially becoming a fully nationwide retailer. This expansion likely included the introduction of Supercenters as part of their growth strategy during that period. However, without more specific details, we cannot pinpoint an exact year for when the first Supercenter was opened."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "Walmart's subsidiary in Kenya is known as Lidl Kenya, not Walmart. This might be a bit confusing since it's part of the broader Walmart group, but specifically under the Walmart umbrella in Kenya, it operates as Lidl."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "Walmart faces competition from various retail chains both within and outside the United States, including Target, Kroger, Costco, and Amazon. Internationally, it competes with retailers like Carrefour in Brazil."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "Walmart's slogan is \"Save Money. Live Better.\""
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "Walmart entered Canada in 1994 with its first store in Windsor, Ontario."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "Walmart was founded in 1962."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "Based on the information provided, Walmart de México y Centroamérica operates in Honduras as well as other countries in Central America. Therefore, Walmart does operate in Honduras."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "The information provided does not include specific details about what the Walmart Money Center is, so I cannot provide a detailed explanation based solely on the given context. However, typically, the Walmart Money Center offers financial services and products to customers, such as money orders, Western Union transfers, tax preparation assistance, and check cashing. For precise information, you would need to refer to current Walmart policies or official sources."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "Based on the information provided, I cannot determine the exact number of Walmart stores as of October 2022. The specific number of stores is not mentioned in the context given, which primarily focuses on historical developments and milestones up to 2008. For an accurate current count, you would need to refer to the most recent official data or reports from Walmart."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "Walmart Express was a smaller format retail store concept introduced by Walmart in 1983, aimed at providing basic products and services to customers in a more compact space compared to traditional supercenters. These stores typically offered essential goods such as groceries, fresh produce, toiletries, and over-the-counter medications, catering to convenience shopping needs."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "Walmart Supercenters typically range from 160,000 to 280,000 square feet (about 15,000 to 26,000 square meters), with an average size of around 230,000 square feet (21,400 square meters)."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "No, Walmart did not acquire Moosejaw. Moosejaw is a Canadian outdoor apparel and footwear retailer, which was acquired by Crocs in 2014. There is no information in the provided context suggesting that Walmart made any acquisition related to Moosejaw."
+    }
+}

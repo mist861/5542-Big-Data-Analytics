@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "The cost of shrimp varies, with a pound of Frozen Wild Coldwater Salad Shrimp costing 8.36, while Frozen Wild Coldwater Salad Shrimp is available for 8.36 per pound."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The provided text does not contain any information regarding where to find ranch, so I am unable to answer this question from the given context."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "The provided text suggests that Walmart offers a variety of healthy snacks such as dried cherries, apricots, freeze-dried banana & strawberry flakes, chopped pecans, and roasted & lightly salted mixed nuts."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "The provided text does not contain any information regarding the user's ice cream selection, so I am unable to answer this question from the given context."
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "Hamburger Helper costs $1.66 or $1.83 depending on the offer available."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "The price of 12 Great Value eggs is $1.06."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "The provided text does not contain any information regarding Lowry's seasoning, so I am unable to answer this question from the given context."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "H. Lee Scott was the president of Walmart in 2000."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "The provided text does not contain information regarding when the first Walmart Supercenter was opened, so I am unable to answer this question from the given context."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "The provided text does not contain any information regarding Walmart's operations or branding in Kenya, so I am unable to answer this question from the given context."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "The provided text does not contain any information regarding Walmart's rivals, so I am unable to answer this question from the given context."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "The provided text does not contain any information regarding Walmart's slogan, so I am unable to answer this question from the given context."
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "The provided text does not contain information regarding when Walmart entered Canada, so I am unable to answer this question from the given context."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "The provided text does not contain any information regarding when Walmart was founded, so I am unable to answer this question from the given context."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "The provided text does not contain any information regarding Walmart's operations in Honduras, so I am unable to answer this question from the given context."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "The provided text does not contain any information regarding the Walmart Money Center, so I am unable to answer this question from the given context."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "The provided text does not contain information regarding the number of stores Walmart had in October 2022, so I am unable to answer this question from the given context."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "The provided text does not contain any information regarding Walmart Express, so I am unable to answer this question from the given context."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "The provided text does not contain any information regarding the size of Walmart Supercenters, so I am unable to answer this question from the given context."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "The provided text does not contain any information regarding Walmart acquiring Moosejaw, so I am unable to answer this question from the given context."
+    }
+}

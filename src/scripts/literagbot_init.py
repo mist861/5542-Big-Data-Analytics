@@ -5,6 +5,8 @@ import chromadb
 import ollama
 import langchain
 from langchain.text_splitter import TokenTextSplitter
+from docx import Document
+from PyPDF2 import PdfReader
 
 config = configparser.ConfigParser()
 config.read('./literagbot.config')
@@ -20,7 +22,10 @@ class Corpus():
         self.db_metadatas = []
         self.db_docs = []
         self.chroma_client = chromadb.PersistentClient(path=config.get('CORPUS','STORE'))
-        self.chroma_client.delete_collection(name=config.get('CORPUS','COLLECTION'))
+        try:
+            self.chroma_client.delete_collection(name=config.get('CORPUS','COLLECTION'))
+        except:
+            print(f"Collection {config.get('CORPUS','COLLECTION')} not found, nothing to clean!")
         self.collection = self.chroma_client.create_collection(name=config.get('CORPUS','COLLECTION'))
 
 
@@ -28,14 +33,31 @@ class Corpus():
         for file in os.listdir(config.get('CORPUS','DATA_DIR')):
             filename = os.fsdecode(file)
             path = os.path.join(config.get('CORPUS','DATA_DIR'), filename)
-            if filename.endswith(".csv") or filename.endswith(".xlsx"):
-                print(f"Found table: {filename}")
+            if filename.endswith(".csv"):
+                print(f"Found CSV table: {filename}")
                 table = pd.read_csv(path)
                 self.tables[f'{filename}'] = table
+            elif filename.endswith(".xlsx"):
+                print(f"Found Excel table: {filename}")
+                table = pd.read_excel(path)
+                self.tables[f'{filename}'] = table
             elif filename.endswith(".txt"):
-                print(f"Found text: {filename}")
-                text = open(path, "r")
+                print(f"Found text file: {filename}")
+                text = open(path, "r", encoding="utf8")
                 self.texts[f'{filename}'] = text.read()
+            elif filename.endswith(".docx"):
+                print(f"Found Word document: {filename}")
+                document = Document(path)
+                content = [p.text for p in document.paragraphs]
+                self.texts[f'{filename}'] = ("\n".join(str(x) for x in content))
+            elif filename.endswith(".pdf"):
+                print(f"Found PDF: {filename}")
+                reader = PdfReader(path)
+                content = []
+                for page in range(0, len(reader.pages)):
+                    pageObject = reader.pages[page]
+                    content.append(pageObject.extract_text)
+                self.texts[f'{filename}'] = ("\n".join(str(x) for x in content))
         pass
 
     def chunk_tables(self):
@@ -99,19 +121,17 @@ class Corpus():
         pass
 
     def load_vector_store(self):
-        batch_size = 10000
+        batch_size = 3000
         batch_count = (len(self.db_docs) - 1) // batch_size + 1
 
-        for batch in range(batch_count):
-            db_docs = self.db_docs[batch*batch_size:(batch+1)*batch_size]
-            db_ids = self.db_ids[batch*batch_size:(batch+1)*batch_size]
-            db_metadatas = self.db_metadatas[batch*batch_size:(batch+1)*batch_size]
+        for batch in range(0, batch_count):
+            batch_docs = self.db_docs[batch*batch_size:(batch+1)*batch_size]
+            batch_ids = self.db_ids[batch*batch_size:(batch+1)*batch_size]
+            batch_metadatas = self.db_metadatas[batch*batch_size:(batch+1)*batch_size]
             print(f"Adding batch {batch+1}/{batch_count} to vector store")
-            self.collection.add(documents=db_docs, ids=db_ids, metadatas=db_metadatas)
+            self.collection.add(documents=batch_docs, ids=batch_ids, metadatas=batch_metadatas)
+            print(f"Finished adding batch {batch+1}/{batch_count} to vector store")
         pass
-
-    def add_document_to_store(self):
-        print("placeholder for adding a document")
 
 
 store = Corpus()

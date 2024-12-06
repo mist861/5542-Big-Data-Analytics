@@ -1,0 +1,102 @@
+{
+    "0": {
+        "prompt": "How much does shrimp cost?",
+        "expected_response": "Subjective, but should be around $10",
+        "llm_response": "The context does not provide information about the cost of shrimp, so I cannot answer this question from the provided context."
+    },
+    "1": {
+        "prompt": "Which department would have ranch?",
+        "expected_response": "Baking or Pantry, it's in both weirdly",
+        "llm_response": "The context does not mention which department would have ranch, so I cannot answer this question from the provided context."
+    },
+    "2": {
+        "prompt": "What sort of healthy snacks do you offer?",
+        "expected_response": "Subjective, so long as it gives something under 'healthy snacks'.",
+        "llm_response": "The context does not provide information about the sorts of healthy snacks that the store offers, so I cannot answer this question from the provided context."
+    },
+    "3": {
+        "prompt": "What sort of ice cream do you have?",
+        "expected_response": "Subjective, so long as it gives something under 'frozen deserts'.",
+        "llm_response": "I do not have any information about the sort of ice cream I have, so I cannot answer this question from the provided context."
+    },
+    "4": {
+        "prompt": "How much does Hamburger Helper cost?",
+        "expected_response": "Subjective, but should be around $2",
+        "llm_response": "The context does not specify the price of Hamburger Helper, so I cannot answer this question from the provided context."
+    },
+    "5": {
+        "prompt": "How much does 12 great value eggs cost?",
+        "expected_response": "2.42",
+        "llm_response": "The context does not provide information about the cost of 12 great value eggs, so I cannot answer this question from the provided context."
+    },
+    "6": {
+        "prompt": "Where can I find Lowry's seasoning?",
+        "expected_response": "Subjective, should be in like the Pantry department or spice aisle",
+        "llm_response": "The context does not provide information about where you can find Lowry's seasoning, so I cannot answer this question from the provided context."
+    },
+    "7": {
+        "prompt": "Who was the president of Walmart in 2000?",
+        "expected_response": "Lee Scott",
+        "llm_response": "The context does not specify who the president of Walmart was in 2000, so I cannot answer this question from the provided context."
+    },
+    "8": {
+        "prompt": "When was the first Walmart Supercenter opened?",
+        "expected_response": "1988",
+        "llm_response": "The passage does not specify the date of the first Walmart Supercenter opening, so I cannot answer this question from the provided context."
+    },
+    "9": {
+        "prompt": "What is Walmart called in Kenya?",
+        "expected_response": "Massmart",
+        "llm_response": "The context does not mention the name of Walmart in Kenya, so I cannot answer this question from the provided context."
+    },
+    "10": {
+        "prompt": "Who are Walmart's rivals?",
+        "expected_response": "Kmart, Sears, or anything else that makes sense",
+        "llm_response": "The passage does not specify any rivals of Walmart, so I cannot answer this question from the provided context."
+    },
+    "11": {
+        "prompt": "What is Walmart's slogan?",
+        "expected_response": "Save money. Live better.",
+        "llm_response": "The context does not mention Walmart's slogan, so I cannot answer this question from the provided context."
+    },
+    "12": {
+        "prompt": "When did Walmart enter Canada?",
+        "expected_response": "1994",
+        "llm_response": "The context does not mention when Walmart entered Canada, so I cannot answer this question from the provided context."
+    },
+    "13": {
+        "prompt": "When was Walmart founded?",
+        "expected_response": "1962",
+        "llm_response": "The context does not specify when Walmart was founded, so I cannot answer this question from the provided context."
+    },
+    "14": {
+        "prompt": "Does Walmart operate in Honduras?",
+        "expected_response": "Yes",
+        "llm_response": "The context does not mention whether Walmart operates in Honduras, so I cannot answer this question from the provided context."
+    },
+    "15": {
+        "prompt": "What is the Walmart Money Center?",
+        "expected_response": "Subjective, it should mention the financial services",
+        "llm_response": "The context does not mention anything about the Walmart Money Center, so I cannot answer this question from the provided context."
+    },
+    "16": {
+        "prompt": "How many stores did Walmart have in October 2022?",
+        "expected_response": "10,586",
+        "llm_response": "The context does not specify the number of stores owned by Walmart in October 2022, so I cannot answer this question from the provided context."
+    },
+    "17": {
+        "prompt": "What was Walmart Express?",
+        "expected_response": "Subjective, it should mention smaller discount stores and/or gasoline",
+        "llm_response": "The passage does not mention what Walmart Express was, so I cannot answer this question from the provided context."
+    },
+    "18": {
+        "prompt": "How big are Walmart Supercenters?",
+        "expected_response": "69,000 to 260,000 square feet",
+        "llm_response": "The average size of a Walmart Supercenter is 105,000 square feet (9,800 square meters)."
+    },
+    "19": {
+        "prompt": "Did Walmart acquire Moosejaw?",
+        "expected_response": "Yes",
+        "llm_response": "The context does not mention whether Walmart acquired Moosejaw, so I cannot answer this question from the provided context."
+    }
+}

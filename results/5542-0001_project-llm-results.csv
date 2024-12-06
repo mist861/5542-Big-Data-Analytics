@@ -1,0 +1,10 @@
+Model,Size (GB),Parameters (B),Accuracy (Estimated w/ Test Prompts),Notes
+llama3.1,4.7,8.03,0.58,
+llama3.2,2,3.21,0.73,
+llama3.2:1B,1.3,1.24,0.65,"What it got wrong, it got really wrong"
+qwen2.5,4.7,7.62,0.8,
+qwen2.5:0.5B,0.394,0.5,0.2,Hallucinated quite a bit
+phi3.5,2.2,3.8,0.6,
+mistral,4.2,7.25,0.83,
+gemma,5,8.54,0.25,I honestly don't know why this one was so bad
+gemma:2b,1.6,2.61,0.225,

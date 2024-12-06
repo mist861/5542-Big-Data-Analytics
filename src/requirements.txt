@@ -1,8 +1,12 @@
 configparser
 streamlit
 pandas
-chromadb
+chromadb == 0.5.0
 ragatouille
 ollama
 typing
 langchain
+python-docx
+PyPDF2
+python-git
+setuptools

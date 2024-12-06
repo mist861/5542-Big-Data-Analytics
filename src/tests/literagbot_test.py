@@ -1,20 +1,25 @@
 import os
 os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 
-import streamlit as st
 import configparser
 import chromadb
 from ragatouille import RAGPretrainedModel
 import ollama
 from typing import Optional
+import json
+import re
 
 config = configparser.ConfigParser()
-config.read('./literagbot.config')
+config_path = os.path.join(os.path.dirname(__file__), '../literagbot.config')
+config.read(config_path)
+
+model = config.get('CHAT','MODEL')
+ollama.pull(model)
 
 chroma_client = chromadb.PersistentClient(path=config.get('CORPUS','STORE'))
 collection = chroma_client.get_or_create_collection(name=config.get('CORPUS','COLLECTION'))
 
-ollama.pull(config.get('CHAT','MODEL'))
+#llmreranker = RAGPretrainedModel.from_pretrained("colbert-ir/colbertv2.0")
 
 def rag_query(
     question: str,
@@ -67,18 +72,26 @@ def rag_query(
 
     return answer
 
-st.title(config.get('CHAT','TITLE')) # Set the page title
-st.caption(config.get('CHAT','DESCRIPTION')) # Set the page caption
+prompts = []
+answers = []
+results = {}
 
-if "messages" not in st.session_state: # If there are no messages in the session state, display a default message
-    st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
+file_path = os.path.join(os.path.dirname(__file__), './test_prompts.json')
+with open(file_path, 'r', encoding='utf-8') as save_file:
+    file = json.load(save_file) # Load the (currently default) save file
+    for test, properties in file.items():
+        prompts.append(properties['prompt'])
+        answers.append(properties['answer'])
 
-for msg in st.session_state.messages: # Display the messages in the session state (right now, just the above)
-    st.chat_message(msg["role"]).write(msg["content"])
+for prompt in range(0, len(prompts)):
+    prediction = rag_query(prompts[prompt], model)
+    print(f'Prompt: {prompts[prompt]}')
+    print(f'Expected response: {answers[prompt]}')
+    print(f'LLM response: {prediction}')
+    results[prompt] = {'prompt':f'{prompts[prompt]}', 'expected_response':f'{answers[prompt]}', 'llm_response':f'{prediction}'}
 
-if prompt := st.chat_input(): # If anything is added to the prompt by the user
-    st.session_state.messages.append({"role": "user", "content": prompt}) # Add it to the session state
-    st.chat_message("user").write(prompt) # Show it in the chat log
-    msg = rag_query(prompt, config.get('CHAT','MODEL')) # Generate a message by calling the above function
-    st.session_state.messages.append({"role": "assistant", "content": msg}) # Add the message to the session state
-    st.chat_message("assistant").write(msg) # Write the message out in the UI
+
+model_name = re.sub('[^a-zA-Z0-9\-\_]', '', model)
+results_path = os.path.join(os.path.dirname(__file__), f'../../results/{model_name}_results.json')
+with open(results_path, 'w', encoding='utf-8') as results_file:
+    json.dump(results, results_file, ensure_ascii=False, indent=4)
